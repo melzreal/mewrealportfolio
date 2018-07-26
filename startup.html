@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>melzreal.com</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="startup.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Melissa Real</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#why-us">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="cover">
+        <div class="cover-text">
+            <h1>Freshly baked portfolio </h1>
+            <p class="lead">Like a steaming hot bun out of the oven of life.</p>
+            <a href="https://github.com/melzreal" role="button" class="btn btn-danger btn-lg">Check out my GitHub</a>
+        </div>
+    </div>
+    
+
+    
+    <section id="why-us">
+        <h2>Who/what/why?</h2>
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3> Versatile </h3>
+                    <p>At the core of operations I've gained experience in unix/linux systems, AWS, salesforce, amongst others. I've been working on web development projects in my spare time in JavaScript, JSON, Ruby, a bit of Python. I've been exposed to Akamai management (got a  certification on it too!) New Relic monitoring, Wordpress websites management, JIRA, and in true operations style - anything they throw at us that's needed to keep the business running.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3> Flexible </h3>
+                    <p> Never afraid to diversify - I've been a conference hostess, bartender, brand ambassador, data administrator and now do operations and project support. If versatile and adjustable are your requirements I'll be there to assist.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3> Development </h3>
+                    <p> Freshly graduated from a computing and information systems Msc I'm now taking on FlatIron's school web development programme to build up a portfolio (and well, force myself to code more often). Github will be showing my progress! </p>
+                </div>
+                <div class="col-sm-3">
+                    <h3> Hungry </h3>
+                    <p> To learn, everyday. My linkedin has all the certifications - I've got the Linux Systems Administrator exam coming up - but be it a bit of bash scripting, php, python, photoshop/indesign, I've touched upon every technology even if I'm yet in the process of mastering application development. This has kept me in operations for 3 years as well, being constantly exposed to new tech is a part of the work I adore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container" id="bolden">
+        
+            <h2>Projects </h2>
+
+            <div id="transparent">
+            <div class="row">
+ 
+                <div class="col-sm-4">
+                    <img src="img/jesscup.jpg" alt="My face" class="img-circle">
+                    <h4>Tic Tac Toe</h4>
+                    <a href="https://github.com/melzreal/oo-tic-tac-toe-v-000">Check it here</a>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="img/jesscup.jpg" alt="Cupcakes" class="img-circle">
+                    <h4>Random Quotes Generator</h4>
+                    <p> One of my FreeCodeCamp projects. Quotes API + JSON</p>
+                    <a href="https://codepen.io/melzreal/pen/EZXWyP"> Codepen </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="img/jesscup.jpg" alt="Pineapples with hats" class="img-circle">
+                    <h4>Full Cv</h4>
+                    <a href="docs/mrealcv.pdf">CV</a>
+                </div>
+                
+
+            </div>
+            </div> 
+        </div>
+    </section>
+    
+    <section id="signup">
+        <div class="container">
+            <h2>Get in touch! </h2>
+            <p class="lead"> With niceties  </p>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form action="processform.php" id="emailme" method="POST">
+                        <div class="input-group">
+                        <input type="email" class="form-control input-lg"  placeholder="Feed your email here" id="mailings" required>
+                            <span class="input-group-btn">
+                                <button class="btn btn-warning btn-lg" type="submit" id="mailbutton" >Send</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="cat"></div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <blockquote>
+                &ldquo; Men must be taught as if you taught them not <br>
+                And things unknown proposed as things forgot. &rdquo;
+                <cite>&mdash; Alexander Pope</cite>
+            </blockquote>
+        </div>
+    </section>
+    
+    <footer>
+       &#x2660; crafted by <a href="https://github.com/melzreal">mel</a>
+    </footer>
+
+
+    <!-- jQuery ( for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
