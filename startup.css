@@ -5,7 +5,7 @@ body,
 }
 
 .cover {
-    background: url('img/nonki-azariah.jpg') top left no-repeat;
+    background: url('img/jacob-kiesow.jpg') top left no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -90,7 +90,7 @@ h2 + p {
 }
 
 #projects {
-    background: url('img/drew-coffman-1872-unsplash.jpg') center no-repeat;
+    background: url('img/mike.jpg') center no-repeat;
     background-size: cover;
     color: black;
     text-align: center;
@@ -98,7 +98,7 @@ h2 + p {
 
 #projects h2 { 
 color: #FFFF;
-text-shadow: 0 13.36px 8.8px #0000, 0 2px 2px #021c44;
+text-shadow: 0 13.36px 8.8px #FFFF, 0 2px 2px #021c44;
 
 }
 
@@ -119,10 +119,15 @@ text-shadow: 0 13.36px 8.8px #0000, 0 2px 2px #021c44;
 #transparent {
     background-color: #ffdab3;
     background: rgba(255,230,204, 0.5);
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2%; 
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    
+}
 
+#transparent > div > div > a > h4{
+    color: #4d0000;
+    text-shadow: 0 1px 8.8px #FFFF;
 }
 
 #cat {
@@ -142,9 +147,19 @@ footer {
     font-family: Georgia, Times, serif;
 }
 
+
+
+body > section.testimonial > div > a > h3 {
+ 
+ color: #4d0000;
+ font-weight: bold;
+ margin: auto;
+ text-shadow: 0 1px 8.8px #FFFF;
+}
+
 footer a {
     color: hotpink;
-}
+
 
 /* Media Queries */
 
